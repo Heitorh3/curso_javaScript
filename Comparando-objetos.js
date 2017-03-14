@@ -24,7 +24,7 @@ var joao = {
 var maria = {
 	nome: 'Maria',
 	idade: 22,
-	email:'teste3@gmail.com',
+	email:'teste@gmail.com',
 	endereco:{
 		logradouro:'Av Pedro 2',
 		numero: 598,
@@ -43,7 +43,7 @@ var maria = {
 	}		
 }
 
-console.log('João e Maria tem o mesmo email?', joao.igualA(maria) ? 'Sim' : 'Não');
+console.log('João e Maria tem o mesmo email?', maria.igualA(joao) ? 'Sim' : 'Não');
 
 console.log('-------------------------------------------------------');
 
